@@ -33,7 +33,7 @@ def get_employees_by_dept(department):
 
     # Add your implementation from here
     for i in employee_data:
-        if i["department"] is department:
+        if i["department"] == department:
             result.append(i)
 
     return result
